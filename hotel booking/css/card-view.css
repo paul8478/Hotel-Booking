@@ -1,0 +1,844 @@
+.ab-bg{
+    background-color: white;
+    linear-gradient:(-85deg, rgb(0 0 0 / 0), rgb(0 0 0 / 1) 180%);
+  height: 100%;
+  background-size: cover;
+  background-blend-mode: multiply;
+  
+  }
+  
+  body {
+  
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  
+  
+  }
+
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.closee {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closee:hover,
+.closee:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closee3 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closee3:hover,
+.closee3:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closee4 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closee4:hover,
+.closee4:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+  
+  .nav-div {
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    font-family: lato;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #010332;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: lato;
+    font-size: 2.5vh;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .navbar a {
+    float: right; 
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  .backup{
+    width: 100%;
+    height: 5%;
+    background-color: aqua;
+  }
+  
+  .navbar a.split {
+    float: left;
+    color: white;
+  }
+  
+  .navbar a:hover { 
+    color: rgb(11, 235, 243);
+  }
+  
+  
+  .navbarr {
+    overflow: hidden;
+    background-color: #1ebcec;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: lato;
+    z-index: 10;
+    
+    
+  }
+  .fiy{
+   
+  }
+
+  .hx{
+    height: 160px;
+    width: 500px;
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid rgb(160, 160, 160);
+        border-radius: 10px;
+  }
+  .hx2{
+    height: 150px;
+    width: 500px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+  }
+  .lou{
+    background-color: transparent;
+    display: flex;
+  }
+  .vl {
+    border-left: 2px solid grey;
+    height:85px;
+  }
+  .cuk{
+    background-color: transparent;
+    width: 65%;
+    padding: 5px;
+    font-size: 15px;
+
+  }
+  dt{
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+  }
+  .fv{
+    display: flex;
+  }
+  .j{
+    background-color: transparent;
+    padding: 8px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+  }
+  .k{
+    background-color: transparent;
+    padding: 5px;
+    height: 100%;
+    width: 50%;
+  }
+  .s{
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#1ebcec;
+    color: whitesmoke;
+  }
+  .t{
+    width: 50%;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid rgb(160, 160, 160);
+  }
+  .u{
+    width: 45%;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid rgb(160, 160, 160);
+background-color: #0062cc;
+    
+  }
+  .cuk2{
+    background-color: transparent;
+    width: fit-content;
+    padding: 5px;
+    text-align: right;
+    font-size: 15px;
+    
+  }
+ 
+  
+  .navbarr a {
+    float: right; 
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 100%;
+    object-fit: contain;
+    
+  }
+  
+  .navbarr a.split {
+    float: left;
+    color: white;
+  }
+  
+  .navbarr a:hover { 
+    color: rgb(11, 235, 243);
+  }
+  
+  .mySlides {
+    display: none
+  }
+  img {
+    vertical-align: middle;
+  }
+  
+  .title  {
+  color:white;
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: normal 14px/1.618em "Roboto", lato;
+  }
+  
+  
+  ul#menu li {
+  display:inline;
+  color: aliceblue;
+  }
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }  
+
+  .hea{
+    color: #050857;
+    font-weight: 700;
+   
+  }
+  .section {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+  }
+
+  .section .item {
+    flex: 1;
+    padding: 10px;
+
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    
+  }
+
+  .lil{
+    font-size:17px;
+    color:rgb(31, 30, 30);
+    font-family: arial;
+    font-weight: 600;
+  }
+  .v-ab1{
+    font-family: lato;
+    text-align: justify;
+    color: rgb(59, 59, 59);
+    margin: auto;
+    
+  }
+
+  .ab-div{
+    background: linear-gradient(130deg, #71d0fc, #e182f0); 
+    height: 33%;
+    width: 80%;
+    border-radius: 3px;
+    padding: 10px;
+    padding-left: 50px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.8);
+
+  }
+  
+  .lili {
+    font-family: monospace;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.4;
+  }
+  .vi-b2{
+    width:100%;
+    padding:35px;
+  }
+  .containerx {
+    display: flex;
+    
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: 30%;
+    background-color:transparent;
+    padding: 20px;
+    padding-left: 25px;
+    box-sizing: border-box;
+  
+    border-radius: 8px;
+  }
+  .item23 {
+    
+    background-color:transparent;
+    padding: 20px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    border-radius: 8px;
+   
+  }
+  .item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .lili{
+    color: black;
+    
+  }
+
+
+  .mq {
+    position: relative;
+    border: 2px solid rgb(119, 116, 116);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1ebcec;
+  }
+  
+  .mq span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .ratting-start {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+
+  }
+  
+  .ratting-graph {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .ratting-graph-bar {
+    width: 20px;
+    height: 100px;
+    background-color: #ccc;
+    margin-bottom: 5px;
+    transition: height 0.3s ease;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .ratting-graph-bar-5 {
+    height: 20px;
+    width: 400px;
+    background-color: #04AA6D;
+    border-radius: 20px;
+  }
+  
+  .ratting-graph-bar-4 {
+    height: 20px;
+    width: 350px;
+    background-color: #2196F3;
+    border-radius: 20px;
+
+  }
+  
+  .ratting-graph-bar-3 {
+    height: 20px;
+    width: 300px;
+    background-color: #00bcd4;
+    border-radius: 20px;
+
+  }
+  
+  .ratting-graph-bar-2 {
+    height: 20px;
+    width: 200px;    background-color: #ff9800;
+    border-radius: 20px;
+
+  }
+  
+  .ratting-graph-bar-1 {
+    height: 20px;
+    width: 100px;    background-color: #f44336;
+    border-radius: 20px;
+
+  }
+
+
+  .row-container {
+    display: flex;
+   
+  }
+
+  .left-box {
+    flex: 60%;
+    background-color: transparent;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .right-box {
+    flex: 40%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+.mosino{
+  display:flex;
+
+}
+
+
+.chat-container {
+  border: 2px solid #5ec5f5;
+  height: 160px;
+  width: 90%;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.chat-container-darker {
+  border:2px solid rgb(187, 186, 186);
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.chat-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.chat-container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.chat-container-darker img {
+  float: right;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+
+  .vi-b1-2{
+    width:100%;
+    padding-left:35px;
+    padding-right:35px;
+
+  }
+
+  .item2 {
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+
+  .containerl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 500px;
+    margin: auto;
+  }
+  
+  .text {
+    flex: 1;
+    margin-bottom: 10px;
+    color: rgb(82, 80, 80);
+    font-size: 16px;
+  }
+  
+  .pictures {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .picture {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    background-color: transparent;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .containerl {
+      flex-direction: row;
+    }
+    
+    .text {
+      flex: 1;
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+    
+    .pictures {
+      flex: 1;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    
+    .picture {
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  .book-now-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background:linear-gradient(130deg, #42fabd, #08cc81); 
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-now-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-now-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .book-now-form input[type="text"],
+  .book-now-form input[type="email"],
+  .book-now-form select {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .book-now-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3fd844;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .book-now-form input[type="text"],
+    .book-now-form input[type="email"],
+    .book-now-form input[type="date"],
+    .book-now-form select {
+      width: 100%;
+      height: 30px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    .book-now-form input[type="date"] {
+      appearance: none;
+      -webkit-appearance: none;
+      color: #555;
+    }
+    
+    .book-now-form input[type="date"]::-webkit-calendar-picker-indicator {
+      position: relative;
+      background-color: transparent;
+      padding: 0;
+      cursor: pointer;
+    }
+
+
+
+    

@@ -1,0 +1,235 @@
+
+.hk{
+  height: auto;
+  width: fit-content;
+  background-color: #99eff5;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  border: 1px solid rgb(90, 174, 252);
+}
+
+.product-card {
+  height: 250px;
+  margin-bottom: 15px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+  float: right;
+  background: linear-gradient(60deg, #99eff5, #ffffff);
+}
+
+
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form-row form {
+    margin-right: 10px;
+  }
+
+  .contxx{
+    height: auto;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color:transparent;
+    margin: auto;
+  
+  }
+  .cont{
+    height: auto;
+    width: 73%;
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color:transparent;
+    float: right;
+  
+  }
+  
+  /* Mobile devices */
+  @media screen and (max-width: 480px) {
+    .cont {
+      width: 100%;
+      margin-right: 0;
+      padding-right: 0;
+      float: none;
+    }
+  }
+  
+
+  .he{
+    height: 5px;
+  }
+ 
+  .he-t{
+    color: black;
+    text-transform: capitalize;
+    font-family: lato;
+
+  }
+  
+  .product-image {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:10px;
+    
+  }
+  
+  .product-image img {
+    height: 100%;
+    width: 400px;
+  }
+  
+  .product-details {
+    height: 100%;
+    width: 70%;
+    text-align:left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:lato;
+  }
+  
+  .product-name {
+    font-size: 20px;
+    font-weight:700;
+    color: rgb(226, 25, 25);
+    font-family: lato;
+  }
+  
+  .product-attribute {
+    font-size: 14px;
+    color: rgb(21, 22, 22);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: justify;
+    
+  
+  }
+  
+  .product-attribute span {
+    font-weight: bold;
+  }
+  
+  .product-about {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .play-button {
+    height: 35px;
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+
+  }
+  .play-button:hover {
+    background-color: rgb(4, 165, 170);
+    animation-delay: 100ms;
+    color:white;
+    
+  }
+  
+  @media (max-width: 767px) {
+    .product-card {
+    width: 350px;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    background-color: #032019;
+    border-radius: 10px;
+    overflow: hidden;
+   
+  }
+  
+  .product-image {
+    width: 44%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .product-details {
+    
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:white;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: aqua;
+    font-family:lato;
+    margin-bottom: 10px;
+  }
+  
+  .product-attributes {
+    font-size: 5px;
+    color: aqua;
+    margin-bottom: 20px;
+    font-weight: bold;
+  
+  }
+  
+  .product-about {
+    font-size: 10px;
+    color: greenyellow;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .product-imdb {
+    font-size: 5px;
+    color: aqua;
+    margin-bottom: 20px;
+  }
+  
+  .play-button {
+    background-color: #ff3333;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+    width: 60px;
+    border:none;
+  }
+  
+    }
+  
+   /* .product-card:hover{
+      border:2px solid aqua;
+      width:45%;
+      height:280px;
+      animation:smooth;
+      box-shadow: 1px 1px 8px 1px aqua;
+  
+    }*/
+
+    

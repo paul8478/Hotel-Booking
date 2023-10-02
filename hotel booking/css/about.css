@@ -1,0 +1,286 @@
+html {
+  height: 100%;
+}
+
+.ab-bg{
+  background-color: white;
+  linear-gradient:(-85deg, rgb(0 0 0 / 0), rgb(0 0 0 / 1) 180%);
+height: 100%;
+background-size: cover;
+background-blend-mode: multiply;
+
+}
+
+body {
+
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+
+
+}
+.xs{
+   padding: 5px;
+  height: auto;
+  width: 93%;
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.my-cardx {
+  width: 200px;
+  height: 120px;
+  background-color: #dbf8f6;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.my-cardx:hover {
+  background-color: #51cff5;
+}
+
+
+
+.nav-div {
+  background-color: transparent;
+  height: 50px;
+  width: 100%;
+  font-family: lato;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #010332;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: lato;
+  font-size: 2.5vh;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.navbar a {
+  float: right; 
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+.backup{
+  width: 100%;
+  height: 5%;
+  background-color: aqua;
+}
+
+.navbar a.split {
+  float: left;
+  color: white;
+}
+
+.navbar a:hover { 
+  color: rgb(11, 235, 243);
+}
+
+
+.navbarr {
+  overflow: hidden;
+  background-color: #1ebcec;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: lato;
+  z-index: 10;
+  
+  
+}
+.fiy{
+ 
+}
+
+.navbarr a {
+  float: right; 
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 100%;
+  object-fit: contain;
+  
+}
+
+.navbarr a.split {
+  float: left;
+  color: white;
+}
+
+.navbarr a:hover { 
+  color: rgb(11, 235, 243);
+  text-decoration: none;
+}
+
+.mySlides {
+  display: none
+}
+img {
+  vertical-align: middle;
+}
+
+.title  {
+color:white;
+font-size: 1.4rem;
+text-align: center;
+font-family: normal 14px/1.618em "Roboto", lato;
+}
+
+
+ul#menu li {
+display:inline;
+color: aliceblue;
+}
+
+
+.ab-b1{
+ 
+  width: 100%;
+  background-color: red;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.about-image {
+  width: 100%;
+  height: 30%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 34px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.text {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.pictures {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+  
+  .text {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  
+  .pictures {
+    flex: 1;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .picture {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+  }
+}
+
+.custom-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.custom-card {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  border-radius:8px;
+  background-color: white;
+  border:1px solid rgb(184, 182, 182);
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .custom-card {
+    width: calc(50% - 20px);
+  }
+}
+
+.ab-tex{
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}

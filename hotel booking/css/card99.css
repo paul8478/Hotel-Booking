@@ -1,0 +1,16 @@
+.latest-news{
+  font-family: Arial;
+  font-weight: bold;
+  color:black;
+}
+.rectangle-box-img{
+  width:100%;
+  height:350px;
+}
+.cata{
+  display: flex;
+  padding: 5px;
+  color: rgb(20, 19, 19);
+  text-decoration: none;
+}
+

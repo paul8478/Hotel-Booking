@@ -1,0 +1,243 @@
+
+  .booking-form {
+    max-width: 350px; /* Updated size */
+    margin: 0 auto;
+    background-color: rgb(231, 229, 229);
+    border-radius: 5px;
+    padding: 15px; /* Updated padding */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  }
+  
+  .booking-form h2 {
+    text-align: center;
+    margin-bottom: 15px; /* Updated margin */
+    color: #4CAF50;
+    font-size: 16px; /* Updated font size */
+  }
+  
+  .booking-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px; /* Updated margin */
+    color: #333;
+
+    font-size: 12px; /* Updated font size */
+  }
+  
+  .booking-form input[type="text"],
+  .booking-form input[type="email"],
+  .booking-form select,
+  .booking-form input[type="date"] {
+    width: 100%;
+    height: 35px;
+    padding: 8px; /* Updated padding */
+    border: 1px solid #ccc;
+    background-color: azure;
+    border-radius: 3px;
+    margin-bottom: 5px; /* Updated margin */
+    color: #555;
+
+    font-size: 12px; /* Updated font size */
+  }
+  
+  .booking-form .date-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px; /* Updated gap */
+  }
+  
+  .booking-form .bed-type {
+    display: flex;
+    gap: 5px; /* Updated gap */
+    margin-bottom: 5px; /* Updated margin */
+  }
+  
+  .booking-form .bed-type label {
+    margin-right: 5px; /* Updated margin */
+    font-size: 12px; /* Updated font size */
+  }
+  
+  .booking-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 15px; /* Updated padding */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px; /* Updated font size */
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-form button:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+
+
+
+  .boxy {
+    display: inline-block;
+    margin: 10px;
+    height: 215px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(92, 38, 38, 0.5);
+    position: relative;
+  }
+
+  .boxy img {
+    width: 100%;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 4px rgba(92, 38, 38, 0.5);
+
+  }
+  
+  .boxy h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .boxy p {
+    margin-bottom: 10px;
+  }
+  
+  .boxy button {
+    background-color: rgb(0 195 229);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boxy button:hover {
+    background-color: rgb(14, 192, 94);
+  }
+  
+  .boxy img ::after {
+    content: "\00BB";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-size: 40px;
+    color: #fff;
+    background-color: rgba(231, 13, 13, 0.8);
+    transition: opacity 0.3s ease;
+  }
+  
+  .boxy:hover img {
+    opacity: 0.7;
+  }
+  
+  .boxy:hover::after {
+    opacity: 1;
+  }
+
+
+  .boxyyy {
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(92, 38, 38, 0.5);
+    position: relative;
+  }
+
+  .boxyyy img {
+    width: 100%;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 4px rgba(92, 38, 38, 0.5);
+
+  }
+  
+  .boxyyy h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .boxyyy p {
+    margin-bottom: 10px;
+  }
+  
+  .boxyyy button {
+    background-color: rgb(0 195 229);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boxyyy button:hover {
+    background-color: rgb(14, 192, 94);
+  }
+  
+  .boxyyy img ::after {
+    content: "\00BB";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-size: 40px;
+    color: #fff;
+    background-color: rgba(231, 13, 13, 0.8);
+    transition: opacity 0.3s ease;
+  }
+  
+  .boxyyy:hover img {
+    opacity: 0.7;
+  }
+  
+  .boxyyy:hover::after {
+    opacity: 1;
+  }
+  .ofr{
+    font-weight: bold;
+    font-size:20px;
+    font-family:lato;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    margin-top: 130px;
+  }
+  .ofrp{
+    font-weight: bold;
+    font-size:15px;
+    font-family:lato;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    
+  }
+  .sn{
+    font-weight: bold;
+    font-family: lato;
+    font-size: 18px;
+    padding-left: 10px;
+  }
