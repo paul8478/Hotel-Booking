@@ -23,9 +23,9 @@ Welcome to the Hotel Booking project! This project is a web application develope
 
 ⏺️ JavaScript: Adding interactivity and enhancing the user experience.
 
-PHP: Handling server-side logic and connecting to the database.
+⏺️ PHP: Handling server-side logic and connecting to the database.
 
-SQL: Managing the database to store and retrieve information.
+⏺️ SQL: Managing the database to store and retrieve information.
 
 🔅How to Run the Project🔅
 
