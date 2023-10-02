@@ -17,11 +17,11 @@ Welcome to the Hotel Booking project! This project is a web application develope
 
 🔅Technologies Used🔅
 
-HTML: For creating the structure of web pages.
+⏺️ HTML: For creating the structure of web pages.
 
-CSS: Styling the web pages and making them visually appealing.
+⏺️ CSS: Styling the web pages and making them visually appealing.
 
-JavaScript: Adding interactivity and enhancing the user experience.
+⏺️ JavaScript: Adding interactivity and enhancing the user experience.
 
 PHP: Handling server-side logic and connecting to the database.
 
