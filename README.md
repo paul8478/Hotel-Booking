@@ -29,15 +29,15 @@ Welcome to the Hotel Booking project! This project is a web application develope
 
 🔅How to Run the Project🔅
 
-Clone the Repository: Clone this repository to your local machine using git clone.
+1. Clone the Repository: Clone this repository to your local machine using git clone.
 
-Setup the Database: Import the SQL database schema provided in the database.sql file.
+2. Setup the Database: Import the SQL database schema provided in the database.sql file.
 
-Configure Database Connection: Update the database connection details in the config.php file to match your local database setup.
+3. Configure Database Connection: Update the database connection details in the config.php file to match your local database setup.
 
-Start the Server: Use a local server (e.g., XAMPP, WAMP, or MAMP) to run the PHP application.
+4. Start the Server: Use a local server (e.g., XAMPP, WAMP, or MAMP) to run the PHP application.
 
-Access the Website: Open a web browser and visit http://localhost/hotel-booking to access the Hotel Booking application.
+5. Access the Website: Open a web browser and visit http://localhost/hotel-booking to access the Hotel Booking application.
 
 🔅Project Structure🔅
 
