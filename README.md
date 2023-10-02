@@ -16,6 +16,7 @@ Welcome to the Hotel Booking project! This project is a web application develope
 📑 Database Integration: We use SQL for database management to store user information, reservations, and room details.
 
 🔅Technologies Used🔅
+----------------------
 
 ⏺️ HTML: For creating the structure of web pages.
 
