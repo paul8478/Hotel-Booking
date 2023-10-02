@@ -3,7 +3,7 @@
 
 Welcome to the Hotel Booking project! This project is a web application developed using HTML, CSS, JavaScript, PHP, and SQL. It allows users to book hotel rooms, view available rooms, and manage reservations. 🌟
 
-Project Features
+Project Features:::
 
 👉 User-friendly Interface: Our web application has a sleek and intuitive user interface that makes booking a breeze.
 
@@ -15,7 +15,7 @@ Project Features
 
 📑 Database Integration: We use SQL for database management to store user information, reservations, and room details.
 
-Technologies Used
+Technologies Used:::
 
 HTML: For creating the structure of web pages.
 
@@ -27,7 +27,7 @@ PHP: Handling server-side logic and connecting to the database.
 
 SQL: Managing the database to store and retrieve information.
 
-How to Run the Project
+How to Run the Project:::
 
 Clone the Repository: Clone this repository to your local machine using git clone.
 
@@ -39,7 +39,7 @@ Start the Server: Use a local server (e.g., XAMPP, WAMP, or MAMP) to run the PHP
 
 Access the Website: Open a web browser and visit http://localhost/hotel-booking to access the Hotel Booking application.
 
-Project Structure
+Project Structure:::
 
 index.html: The main landing page of the application.
 
@@ -53,11 +53,11 @@ database.sql: SQL schema for database setup.
 
 admin/: Admin panel files and features.
 
-Contributors
+Contributors:::
 
 🙋‍♂️ Somnath Paul: Project Developer
 
-Feedback and Issues
+Feedback and Issues:::
 
 👍 We welcome your feedback and contributions to this project. If you encounter any issues or have suggestions for improvements, please open an issue on GitHub.
 
