@@ -41,7 +41,10 @@ admin/: Admin panel files and features.
 
 Contributors
 🙋‍♂️ Somnath Paul: Project Developer
+
 Feedback and Issues
+
 👍 We welcome your feedback and contributions to this project. If you encounter any issues or have suggestions for improvements, please open an issue on GitHub.
+
 
 Happy Hotel Booking! 🌆🛎️
