@@ -1,5 +1,6 @@
 # Hotel-Booking
 🏨 Hotel Booking Project 🛏️
+
 Welcome to the Hotel Booking project! This project is a web application developed using HTML, CSS, JavaScript, PHP, and SQL. It allows users to book hotel rooms, view available rooms, and manage reservations. 🌟
 
 Project Features
@@ -37,8 +38,9 @@ scripts.js: JavaScript code for interactive features.
 config.php: Database configuration.
 database.sql: SQL schema for database setup.
 admin/: Admin panel files and features.
+
 Contributors
-🙋‍♂️ [Your Name]: Project Developer
+🙋‍♂️ Somnath Paul: Project Developer
 Feedback and Issues
 👍 We welcome your feedback and contributions to this project. If you encounter any issues or have suggestions for improvements, please open an issue on GitHub.
 
